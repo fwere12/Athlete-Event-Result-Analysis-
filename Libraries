@@ -2,3 +2,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+
+#Reading in the datasets
+olympic_games = pd.read_csv(r"C:\Users\Administrator\Downloads\Olympics_Games.csv")
+olympic_countries = pd.read_csv(r"C:\Users\Administrator\Downloads\Olympics_Country.csv")
+olympic_results = pd.read_csv(r"C:\Users\Administrator\Downloads\Olympic_Results.csv")
